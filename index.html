@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1>My Personal Blog</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="post.html">Posts</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="index.html">Search</a></li>
+                    <li><a href="index.html">Subscribe</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about" class="about fade-in">
+                <h2>About Me</h2>
+                <p>I'm Mohammad Khamalan, a passionate software engineer with expertise in Front-End, Back-End development, and Quality Assurance. Skilled in creating engaging web interfaces with HTML, CSS, and JavaScript.</p>
+                <div class="photo">
+                    <img src="assets/images/picture.jpg" alt="Mohammad">
+                    <img src="assets/images/second_picture.jpg" alt="Mohammad">
+                </div>
+            </section>
+
+            <div class="aboutSection">
+              <div class="halfRow left">
+                  <h3 class="title">Education</h3>
+                  <div class="row bg-gray">
+                      <div class="leftItem">
+                          <div class="item">
+                              <div class="circle-dot"></div>
+                              <div class="edu">
+                                  <h3 class="item-data">An-Najah National University - Nablus</h3>
+                                  <p class="item-text">September 2019 - February 2024: Bachelor's in Computer Engineering.</p>
+                              </div>
+                          </div>
+                          <div class="item">
+                              <div class="circle-dot"></div>
+                              <div class="edu">
+                                  <h3 class="item-data">Islamiah High School</h3>
+                                  <p class="item-text">September 2017 - June 2019</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          
+              <div class="halfRow right">
+                  <h3 class="title">Experience</h3>
+                  <div class="row bg-gray">
+                      <div class="leftItem">
+                          <div class="item">
+                              <div class="circle-dot"></div>
+                              <div class="exp">
+                                  <h3 class="item-data">Frontend Training</h3>
+                                  <p class="item-text">Completed 320 hours of training at the ASAL Company Rawabi branch.</p>
+                              </div>
+                          </div>
+                          <div class="item">
+                              <div class="circle-dot"></div>
+                              <div class="exp">
+                                  <h3 class="item-data">Node.js Training</h3>
+                                  <p class="item-text">Completed 90 hours of training at Gaza Sky Geeks Organization.</p>
+
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+            <section id="contact" class="contact">
+                <h2>Contact Me</h2>
+                <form action="#" method="post" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        
+        <footer class="footer">
+            <a href="https://github.com/MohammadKhamalan">GitHub</a>
+            <a href="https://www.facebook.com/profile.php?id=100009684368430">Facebook</a>
+            <a href="https://x.com/?lang=ar&mx=2">Twitter</a>
+            <a href="https://linkedin.com/in/mohammed-khamalan-39b871300">LinkedIn</a>
+        </footer>
+    </div>
+</body>
+</html>

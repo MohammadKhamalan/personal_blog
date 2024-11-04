@@ -1,0 +1,46 @@
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: antiquewhite;
+}
+
+h2 {
+  font-size: 1.75em;
+  font-weight: 600;
+  
+    color: #2980b9; 
+}
+
+
+
+p {
+  line-height: 1.6;
+  font-size: 1em;
+  color: rgb(26, 30, 33);
+}
+
+a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.author-info {
+  margin-left: 6px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+ 
+}
+.paragraph{
+  margin-left: 20px;
+}
+
+.author-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
